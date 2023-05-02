@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header,footer{
+	position: absolute;
+	background: white;
+	width: 100%;
+	color: Black;
+}
+
+
+header{
+	height: 10hv;
+}
+footer{
+	height: 10hv;
+	bottom: 0;
+}
+
+body{
+	
+	background-color: skyblue;
+
+}
+
+.login-form{
+	width: 720px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: black;
+
+}
+
+.login-form label{
+	font-size: 16px;
+	width: 100%;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	background-color: gray;
+}
+
+.login-form input{
+	font-size: 16px;
+	width: 30%;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	color: gray;
+}
+
+.login-form fieldset{
+	width: 100%;
+	padding: 15px 10px;
+	border: 0;
+	background-color: transparent;
+}
+
+.login-form legend{
+	width: 100%;
+	font-size: 50px;
+	border: 0;
+	padding: 15px 10px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.login-form span{
+	padding: 15px 10px;
+	font-size: 20px;
+	color: white;
+}
+
+.login-form p{
+	
+
+	color: black;
+}
+
+.login-form a{
+	color: blue;
+	font-weight: bold;
+}
+
+
+
+
+

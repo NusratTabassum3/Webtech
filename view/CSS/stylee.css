@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.login-form{
+	width: 720px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: black;
+
+}
+
+.change-pass{
+	width: 720px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: black;
+}
+
+
+.registration{
+	width: 100%;
+	top: 100%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: black;
+	background-color: blue;
+}
+
+
+.registration input{
+	font-size: 16px;
+	width: 20%;
+	padding: 15px 10px;
+	border: 0;
+	background-color: gray;	
+	outline: none;
+	border-radius: 5px;
+	color: gray;
+}
+
+.registration fieldset{
+	width: 50%;
+	padding: 50px 50px;
+	border: 0;
+	margin: 15px 15px;
+	background-color: transparent;
+}
+
+.registration legend{
+	width: 100%;
+	font-size: 50px;
+	border: 0;
+	padding: 15px 10px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.registration label{
+	width: 100%;
+	font-size: 20px;
+	border: 0;
+	padding: 15px 10px;
+	color: black;
+	font-weight: bold;
+
+}
+
+.registration select{
+	font-size: 16px;
+	width: 30%;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	color: gray;
+}
+
+.registration span{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	color: red;
+}
+
+.registration-body{
+	background-color: skyblue;
+}
