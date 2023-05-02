@@ -52,8 +52,8 @@
 
 				
 
-				    setcookie("username",$username,time()+120,"/");
-				    setcookie("exusername" ,120 , time()+120, "/");
+				    setcookie("username",$username,time()+30,"/","localhost");
+				    setcookie("exusername" ,time()+30 , time()+30, "/","localhost");
 					header("Location: ../view/admindashboard.php");
 					echo $username;
 					echo $_COOKIE["exusername"];

@@ -3,34 +3,19 @@ echo isset($_COOKIE["username"]);
 if(isset($_COOKIE["username"]))
 	 {
              
-      $expire=$_COOKIE["exusername"];
-	  echo "taba";
-	  echo  var_dump($_COOKIE["exusername"]);
+      $expire=($_COOKIE["exusername"]);
 	  
-	  if($expire<time())
+	  if($expire>time())
 	  {
          unset($_COOKIE["username"]);
-		 unset($_COOKIE["exusername"]);
-		 
-		
-		 
-
-
-	  }
-	  else
-	   {
-		header("Location: ../view/adminlogin.php");
-		//echo $expire;
-        
-		
-
-	  }
+		 unset($_COOKIE["exusername"]);	 
+      }
 	}
-  else 
-  {
- echo "kkkk";
-  }
-
+	else
+	{
+         
+		header("Location: ../view/adminlogin.php");
+	}  
 
 $_SESSION['status'] = "";
 
@@ -55,4 +40,5 @@ else
 		exit(0);
 	}
 }
+	 
 ?>

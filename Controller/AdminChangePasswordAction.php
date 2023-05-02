@@ -5,7 +5,7 @@
 
 	session_start();
 
-	include('authentication.php');
+	//include('authentication.php');
 	
 	$username = "";
 
