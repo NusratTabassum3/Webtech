@@ -88,7 +88,7 @@
 		}
 	}
 
-	function Checklogin($username, $password) {
+	/*function Checklogin($username, $password) {
 
 		$conn = connect();
 		if($conn){
@@ -119,7 +119,7 @@
 			
 
 		
-	}
+	}*/
 
 	
 	/*function passwordchange($username, $oldpass, $newpass){
@@ -149,7 +149,7 @@
 	
 	
 
-/*function Checklogin($username, $password) {
+function Checklogin($username, $password) {
 		$conn = connect();
 		if ($conn) {
 
@@ -161,7 +161,7 @@
 				return true;
 			return false;
 		}
-	}*/
+	}
 
 	
 
