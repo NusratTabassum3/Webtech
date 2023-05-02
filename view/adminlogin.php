@@ -12,7 +12,7 @@
 
 	$msg="";
     
-    setcookie("user_detect","visited",time()+86400*7, "/");
+    /*setcookie("user_detect","visited",time()+86400*7, "/");
     
     setcookie("location","some location",time()+86400*7, "/");
     
@@ -24,7 +24,7 @@
     
     }
     
-    else{$msg= "Hi! This is the first time you visiting this site.";}
+    else{$msg= "Hi! This is the first time you visiting this site.";}*/
 
 ?>
 

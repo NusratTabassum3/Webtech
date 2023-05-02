@@ -5,19 +5,35 @@
 	$password = "";
 	$role = "";
 
-	$_SESSION ['user']="";
-	$_SESSION ['pass']="";
-	if(isset ($_COOKIE['username'] ) && isset ($_COOKIE['password'] ) ){
+	$expire="";
+	setcookie("username","user",time()+30,"/");
+    setcookie("exusername" ,30 , time()+30);
 
-		$_SESSION ['user']=$_COOKIE['username'];
-		$_SESSION ['pass']=$_COOKIE['password'];
-		//header("Location: ../view/admindashboard.php");
 
-}
-else{
-	$_SESSION ['user']=$_SESSION ['pass']="";
-	//header("Location: ../view/admindashboard.php");
-}
+     if(isset($_COOKIE["username"]))
+	 {
+             
+      $expire=$_COOKIE["exusername"];
+	  if($expire<time())
+	  {
+         unset($_COOKIE["username"]);
+		 unset($_COOKIE["exusername"]);
+		
+		 header("Location: ../view/admindashboard.php");
+
+
+	  }
+	  else
+	   {
+
+		echo $expire;
+
+	  }
+
+
+	 }
+
+
 	if($_SERVER['REQUEST_METHOD'] === "POST"){
 		function test_input($data) {
 			$data = trim($data);
