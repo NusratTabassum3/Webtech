@@ -42,19 +42,10 @@
 					$_SESSION['password'] = $password;
 					$_SESSION['lastname'] = $x;
 					$_SESSION['firstname'] = $y;
-	
+					setcookie("username",$username,time()+30,"/","localhost");
+					setcookie("exusername" ,time()+30 , time()+30,"/","localhost");
 					
-	
-						setcookie("username",$username,time()+30,"/","localhost");
-						setcookie("exusername" ,time()+30 , time()+30,"/","localhost");
-					
-						header("Location: ../view/admindashboard.php");
-			
-	
-					
-					
-	
-					
+					header("Location: ../view/admindashboard.php");
 				}			
 				else
 				{
