@@ -1,8 +1,8 @@
 <?php 
-	require('../Controller/AdminLoginAction.php');
+	include('../Controller/authentication.php');
+	//require('../Controller/AdminLoginAction.php');
 	include('../Controller/header.php');
 	
-	include('../Controller/authentication.php');
 ?>
 
 

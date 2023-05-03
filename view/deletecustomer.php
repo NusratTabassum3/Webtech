@@ -1,9 +1,9 @@
 <?php 
-
+	include('../Controller/authentication.php');
 	require('../Controller/deletecustomerAction.php');
 	include('../Controller/header.php');
 	
-	include('../Controller/authentication.php');
+	
 ?>
 <!DOCTYPE html>
 <html>

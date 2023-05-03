@@ -1,7 +1,8 @@
 <?php 
+	include('../Controller/authentication.php');
 	require('../Controller/AdminChangePasswordAction.php');
 	include('../Controller/header.php');
-	include('../Controller/authentication.php');
+	
 ?>
 
 <!DOCTYPE html>

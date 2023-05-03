@@ -2,13 +2,21 @@
 <?php
 
 	require('../model/User.php');
-
-	session_start();
-
-	//include('authentication.php');
+	include('authentication.php');
 	
 	$username = "";
-
+	
+if (session_status() === PHP_SESSION_NONE) {
+    // start the session
+   session_start();
+ 
+}
+if(!isset($_SESSION["auth"]))
+{
+	//echo 'no auth on l13';
+	//header("Location: ../view/adminlogin.php");
+}
+else{
 	if($_SERVER['REQUEST_METHOD'] === "POST"){
 
 		function test_input($data) {
@@ -67,5 +75,5 @@
 			header("Location: ../view/adminchangepassword.php");
 		}	
 	}
-
+}
 ?>

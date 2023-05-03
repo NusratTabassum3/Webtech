@@ -1,9 +1,9 @@
 <?php 
-
-	require('../Controller/AdminSearchAction.php');
-	include('../Controller/header.php');
 	
 	include('../Controller/authentication.php');
+	require('../Controller/AdminSearchAction.php');
+	include('../Controller/header.php');
+
 ?>
 <!DOCTYPE html>
 <html>

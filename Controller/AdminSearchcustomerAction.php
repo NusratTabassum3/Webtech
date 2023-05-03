@@ -1,8 +1,8 @@
 <?php  
 
 	require('../model/User.php');
-	session_start();
-	include('authentication.php');
+
+
 
 	$username = "";
 

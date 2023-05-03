@@ -1,4 +1,5 @@
 <?php 
+	require('../controller/authentication.php');
 	require('../Controller/addmanageraction.php');
     include('../Controller/header.php');
 ?>
@@ -102,7 +103,7 @@
 	<?php 
 		if(isset($_SESSION['addman'])){
 			echo $_SESSION['addman'] ;
-			$_SESSION['addman']=' ';
+			//$_SESSION['addman']=' ';
 
 		}
 	?>

@@ -1,7 +1,8 @@
 <?php 
+	include('../Controller/authentication.php');
 	require('../Controller/AdminUpdateProfileAction.php');
 	include('../Controller/header.php');
-	include('../Controller/authentication.php');
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -55,13 +56,13 @@
 			</fieldset>
 		</form>
 	</div>
-	<?php 
+	<!-- <?php 
 		if(isset($_SESSION['update'])){
 			echo $_SESSION['update'] ;
-			$_SESSION['update']=' ';
+			//$_SESSION['update']=' ';
 
 		}
-	?>
+	?> -->
 </body>
 </html>
 <?php include('../Controller/footer.php')  ?>

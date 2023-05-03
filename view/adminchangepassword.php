@@ -53,15 +53,6 @@
 	</div>
 
 <br><br>
-	<?php 
-
-		if(isset($_SESSION['pas'])){
-			echo $_SESSION['pas'] ;
-
-			$_SESSION['pas']='';
-		}
-
-	?>
 
 </body>
 </html>

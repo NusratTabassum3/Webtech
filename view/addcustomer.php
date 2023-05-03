@@ -1,4 +1,5 @@
 <?php 
+	require('../controller/authentication.php');
 	require('../Controller/addcustomeraction.php');
     include('../Controller/header.php');
 ?>

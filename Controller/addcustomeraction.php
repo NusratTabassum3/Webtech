@@ -1,6 +1,9 @@
 <?php 
 
-	session_start();
+	if (session_status() === PHP_SESSION_NONE) {
+		// start the session
+		session_start();
+	}
 
 	require('../model/User.php');
 	

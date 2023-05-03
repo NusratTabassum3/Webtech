@@ -1,14 +1,6 @@
-<?php
-
-	session_start();
-	require('../model/User.php');
-	include('authentication.php');
-
-	
-?>
 
 <?php  
-
+require('../model/User.php');
 
 	$fname = $lname = $address = $email = $phone = $qua = $work = "";
 

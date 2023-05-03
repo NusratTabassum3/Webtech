@@ -1,8 +1,8 @@
-<?php 
+<?php 	
+	include('../Controller/authentication.php');
 	require('../Controller/Adminsearchmanageraction.php');
 	include('../Controller/header.php');
-	
-	include('../Controller/authentication.php');
+
 ?>
 
 <!DOCTYPE html>
