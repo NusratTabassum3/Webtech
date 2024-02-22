@@ -1,6 +1,6 @@
 
 <?php
-
+///////
 	require('../model/User.php');
 	include('authentication.php');
 	
